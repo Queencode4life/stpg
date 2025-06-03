@@ -14,7 +14,7 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "a d/b/Y, h:i:s",
+    format: "h:i:s",
     icon_color: palette.peach,
   },
   search: {
@@ -28,12 +28,12 @@ const default_configuration = {
     "s": "search-bar",
   },
   disabled: [],
-  localIcons: true,
+  localIcons: false,
   fastlink: "https://duckduckgo.com/",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "studies",
+      name: "study",
       background_url: "src/img/banners/banner_02.gif",
       categories: [
         {
@@ -132,7 +132,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "chill",
+      name: "chi ll",
       background_url: "src/img/banners/banner_08.gif",
       categories: [
         {
@@ -231,7 +231,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "chilling",
+      name: "chi ll2",
       background_url: "src/img/banners/banner_08.gif",
       categories: [
         {
