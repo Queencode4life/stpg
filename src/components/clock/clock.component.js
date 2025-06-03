@@ -19,7 +19,7 @@ class Clock extends Component {
    * @returns {Array<string>} Array of resource imports
    */
   imports() {
-    return [this.resources.icons.material, this.resources.fonts.roboto];
+    return [this.resources.icons.material, this.resources.fonts.victorMono];
   }
 
   /**
@@ -40,7 +40,7 @@ class Clock extends Component {
 
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
+            font: 300 9pt 'Victor Mono', sans-serif;
             color: ${CONFIG.palette.text};
             letter-spacing: .5px;
             margin: 0;

@@ -28,7 +28,7 @@ const default_configuration = {
     "s": "search-bar",
   },
   disabled: [],
-  localIcons: false,
+  localIcons: true,
   fastlink: "https://duckduckgo.com/",
   openLastVisitedTab: true,
   tabs: [
@@ -133,7 +133,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
           name: "media",
@@ -205,7 +205,7 @@ const default_configuration = {
             {
               name: "kiss123",
               url: "https://kshow123.tv/",
-              icon: "number-123",
+              icon: "square-rounded-letter-k",
               icon_color: palette.green,
             },
             {
@@ -252,7 +252,7 @@ const default_configuration = {
             {
               name: "paraonline",
               url: "https://paraonline.cc/",
-              icon: "hand-love-you",
+              icon: "square-rounded-letter-p",
               icon_color: palette.peach,
             },
           ],
@@ -269,7 +269,7 @@ const default_configuration = {
             {
               name: "novelas360",
               url: "https://novelas360.com/",
-              icon: "view-360-number",
+              icon: "device-tv",
               icon_color: palette.pink,
             },
             {

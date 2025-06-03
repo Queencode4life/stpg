@@ -119,8 +119,8 @@ class Tabs extends Component {
     return [
       this.resources.icons.material,
       this.resources.icons.tabler,
+      this.resources.fonts.victorMono,
       this.resources.fonts.roboto,
-      this.resources.fonts.raleway,
       this.resources.libs.awoo,
     ];
   }
@@ -188,22 +188,22 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(1) {
-          --flavour: ${CONFIG.palette.green};
+          --flavour: ${CONFIG.palette.maroon};
       }
 
       .categories ul:nth-child(2) {
-          --flavour: ${CONFIG.palette.peach};
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       .categories ul:nth-child(3) {
-          --flavour: ${CONFIG.palette.red};
+          --flavour: ${CONFIG.palette.pink};
       }
 
       .categories ul:nth-child(4) {
           --flavour: ${CONFIG.palette.blue};
       }
       .categories ul:nth-child(5) {
-          --flavour: ${CONFIG.palette.mauve};
+          --flavour: ${CONFIG.palette.peach};
       }
 
       .categories ul .links {
@@ -231,7 +231,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: ${CONFIG.palette.text};
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px 'Victor Mono', 'Roboto', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;

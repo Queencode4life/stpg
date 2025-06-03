@@ -38,7 +38,7 @@ class Statusbar extends Component {
    * @returns {string[]} Array of CSS file paths
    */
   imports() {
-    return [this.resources.fonts.roboto, this.resources.icons.material, this.resources.libs.awoo];
+    return [this.resources.fonts.victorMono, this.resources.icons.material, this.resources.libs.awoo];
   }
 
   /**

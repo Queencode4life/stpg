@@ -5,35 +5,14 @@ class Config {
     overrideStorage: false,
     temperature: {
       // Default city for weather display
-      location: "London",
+      location: "Alicante",
       // Temperature scale: C for Celsius, F for Fahrenheit
       scale: "C",
     },
     clock: {
       // 12-hour format with AM/PM
-      format: "k:i p",
+      format: "h:i:s",
     },
-    // Extra clocks to display alongside main clock
-    additionalClocks: [
-      {
-        // Label displayed next to the clock
-        label: "UA",
-        // IANA timezone name (handles DST automatically)
-        timezone: "Europe/Kyiv",
-        // 24-hour format
-        format: "h:i",
-      },
-      {
-        // Clock label
-        label: "Tokyo",
-        // IANA timezone name
-        timezone: "Asia/Tokyo",
-        // 24-hour format without leading zero
-        format: "H:i",
-        // Locale for localised formatting
-        locale: "ja-JP",
-      }
-    ],
     search: {
       // Search engine shortcuts and their URLs
       engines: {
