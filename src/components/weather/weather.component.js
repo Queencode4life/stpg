@@ -83,7 +83,7 @@ class Weather extends Component {
       }
 
       .weather-temperature {
-          font: 300 9pt 'Victor Mono', sans-serif;
+          font: bold 9pt 'Victor Mono', sans-serif;
           color: ${CONFIG.palette.text};
           white-space: nowrap;
           display: flex;
@@ -102,7 +102,7 @@ class Weather extends Component {
       }
 
       .weather-temperature-location {
-          font-weight: 500;
+          font-weight: bold;
       }
 
       .weather-temperature-value

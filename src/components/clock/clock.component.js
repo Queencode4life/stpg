@@ -40,14 +40,15 @@ class Clock extends Component {
 
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Victor Mono', sans-serif;
+            font: bold 9pt 'Victor Mono', sans-serif;
             color: ${CONFIG.palette.text};
             letter-spacing: .5px;
             margin: 0;
         }
 
         .clock-label {
-            font-size: 7pt;
+            font-size: 9pt;
+            font-weight: bold;
             color: ${CONFIG.palette.text};
             margin-right: 5px;
             white-space: nowrap;
@@ -61,7 +62,7 @@ class Clock extends Component {
         }
 
         .clock-icon {
-            font-size: 10pt;
+            font-size: 14pt;
             margin-right: 5px;
         }
 
